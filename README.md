@@ -1,12 +1,12 @@
 # Electrolyte notes — personal research
 
-Notes for me. Not a product, not a pitch, not a device.
+Notes for me. The device, when I build it, is for myself.
 
-Högskolan Väst has teknik and idrott as separate rooms. I do not study in either. If I ask someone there, it is to check a line in these notes.
+Högskolan Väst has teknik and idrott as separate rooms. I do not study in either. If I ask someone there, the transcript goes in `interviews/` only with permission. Anonymous by default.
 
 ## The question
 
-Salt or sugar in vätskeersättning. A sweat patch is the later way to stop guessing the salt half. Same sticker shape as a CGM, different fluid. Biology is in `biology.md`. Open questions are in `questions.md`.
+Salt or sugar in vätskeersättning. A sweat patch is the later way to stop guessing the salt half. Same sticker shape as a CGM, different fluid. Biology is in `biology.md`. Open questions are in `questions.md`. What people actually said is in `interviews/`.
 
 ## One line
 
