@@ -1,18 +1,18 @@
-# Electrolyte patch — amateur note
+# Electrolyte notes — personal research
 
-I am not a student and not building a medical device. This repo is the biology plus a question list.
+Notes for me. Not a product, not a pitch, not a device.
 
-Högskolan Väst has teknik and idrott as separate rooms. I do not study in either. I pull the string between them. Biology is in `biology.md`. Questions sized for a corridor answer are in `questions.md`.
+Högskolan Väst has teknik and idrott as separate rooms. I do not study in either. If I ask someone there, it is to check a line in these notes.
 
-## The one idea
+## The question
 
-A reminder to drink salt or sugar is a guess. A sweat patch that reads ions could turn the salt half of that reminder into a measured mix. Same shape as a CGM, different fluid, different analyte. Phone shows the number. A human decides the drink. No closed loop until someone who knows says it is safe.
+Salt or sugar in vätskeersättning. A sweat patch is the later way to stop guessing the salt half. Same sticker shape as a CGM, different fluid. Biology is in `biology.md`. Open questions are in `questions.md`.
 
-## Biology in one line
+## One line
 
-The gland secretes plasma-like sweat, then the duct takes most of the salt back. Final sweat Na is about 10–90 mmol/L and rises with sweat rate. Sugar barely leaves in sweat. Sugar is in the drink because the gut transporter SGLT1 needs it to pull sodium and water in. Full map: `biology.md`.
+The gland secretes plasma-like sweat, then the duct takes most of the salt back. Final sweat Na is about 10–90 mmol/L and rises with sweat rate. Sugar barely leaves in sweat. Sugar is in the drink because the gut transporter SGLT1 needs it to pull sodium and water in.
 
-## What is already known (public, not my lab)
+## Public recipe I am using as the reference, not as instructions
 
 WHO/UNICEF reduced-osmolarity oral rehydration solution, per 1 L clean water, since 2004:
 
@@ -23,8 +23,4 @@ WHO/UNICEF reduced-osmolarity oral rehydration solution, per 1 L clean water, si
 | KCl | 1.5 g | K 20 mmol/L |
 | Trisodium citrate dihydrate | 2.9 g | citrate 10 mmol/L |
 
-Total about 245 mOsm/L. This is the diarrhea standard, not a sports drink and not a prescription.
-
-## Ask
-
-Open `questions.md`. Ten questions. Hand the idrott half to idrott, the sensor half to teknik.
+About 245 mOsm/L. Diarrhea standard. Not a sports drink.
