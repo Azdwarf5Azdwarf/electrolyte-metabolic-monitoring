@@ -1,39 +1,30 @@
-# Electrolyte + Metabolic Monitoring Hardware
+# Electrolyte patch — amateur note
 
-## Premise
-Sweden subsidizes continuous glucose monitors (CGM) for diabetics through the state.
-Extend this logic: wearable patches that measure electrolytes (sodium/ions) + glucose in real time.
+I am not a student and not building a medical device. This repo is a question list for people who already work with sport, sensors, or body fluids.
 
-## The Alchemical Triad
-- **Mercury** (volatility): fluid state—what's circulating now
-- **Sulfur** (combustion): metabolism—the burn rate, energy state  
-- **Salt** (solidity): electrolytes—structural balance, ion concentration
+Högskolan Väst (Trollhättan) is an elitidrottsvänligt lärosäte (RF, 2026–2030) and has an AI and Sensor Technologies group. I have not found a program named "idrott och teknik" there. If that name is a course, a lab, or a person, the questions in `questions.md` are sized for a corridor answer.
 
-Map these to sensors, not mysticism.
+## The one idea
 
-## Product Types to Explore
-1. **Wearable patch** (sweat electrolyte sensor + glucose)
-   - Real-time readout to phone
-   - Disposable or rechargeable
-   - State subsidy model: covered like CGM for certain populations
+A reminder to drink salt or sugar is a guess. A sweat patch that reads ions could turn that reminder into a measured mix. Same shape as a CGM, different analyte. Phone shows the number. A human decides the drink. No closed loop until someone who knows says it is safe.
 
-2. **Stationary dispensing station** (Tesla Supercharger model)
-   - User walks in, patch syncs via BLE/NFC
-   - Dispenser reads current Na/glucose/metabolic state
-   - Machine mixes and pours custom electrolyte drink
-   - Ubiquitous network—every major hub has one
+## What is already known (public, not my lab)
 
-3. **Feedback integration**
-   - Patch data → station knows what you need
-   - No guessing. No marketing. Just measured optimization.
+WHO/UNICEF reduced-osmolarity oral rehydration solution, per 1 L clean water, since 2004:
 
-## State Model (Sweden precedent)
-- CGM subsidies exist → extend to electrolyte monitoring
-- Prevention > treatment cost
-- Public health angle: proper hydration + ion balance reduces ER visits
+| Ingredient | Amount | Gives |
+| --- | --- | --- |
+| NaCl | 2.6 g | Na 75 mmol/L |
+| Glucose, anhydrous | 13.5 g | glucose 75 mmol/L |
+| KCl | 1.5 g | K 20 mmol/L |
+| Trisodium citrate dihydrate | 2.9 g | citrate 10 mmol/L |
 
-## Open Questions
-- Sweat sensing: accuracy at rest vs. exercise
-- Patch lifespan and cost per unit
-- Station density needed for viability
-- Regulatory path (medical device vs. wellness)
+Total about 245 mOsm/L. This is the diarrhea standard, not a sports drink and not a prescription. Salt alone does not pull water in. Glucose is the carrier (sodium-glucose cotransport). Sports drinks are a different recipe and a different job.
+
+## What this repo is not
+
+Not a subsidy pitch. Not a dispenser network. Not a claim that sweat sodium equals what the drink should contain. Those were earlier sketches. They wait on the answers in `questions.md`.
+
+## Ask
+
+Open `questions.md`. Ten questions. None need a grant. Hand the page to someone at HV who already touches athletes or sensors.
